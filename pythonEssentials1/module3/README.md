@@ -1,50 +1,43 @@
-# Python Essentials 1 - Module 3: Control Structures and Lists
+# Python Essentials 1 - Module 3: Boolean Values, Conditionals, Loops, Lists, and Operations
 
-*Created: May 24, 2025*
+*Created: May 28, 2025*
 
 ---
 
 ## Overview
-Module 3 introduces control structures and list processing, enabling you to control program flow and manage collections of data. You’ll learn how to make decisions, repeat tasks, and work with lists, along with logical and bitwise operations.
+Module 3 introduces Boolean values, conditional execution, loops, lists, and logical/bitwise operations. You’ll learn to make decisions, repeat tasks, manipulate lists, and perform operations, building skills for dynamic Python programs.
 
 ## Objectives
-- Use Boolean values and conditional statements.
-- Implement loops for repetitive tasks.
-- Process lists and perform logical/bitwise operations.
+- Understand Boolean values and relational operators.
+- Implement conditional execution with `if`, `if-else`, `if-elif-else`.
+- Use `while` and `for` loops for repetition.
+- Work with lists (indexing, slicing, manipulation).
+- Apply logical and bitwise operations.
+- Sort lists using bubble sort.
+- Explore multidimensional lists.
 
 ## Topics Covered
-- **Boolean Values**: `True`, `False`, and logical operators (`and`, `or`, `not`).
-- **Conditional Execution**:
-  - `if`, `elif`, `else` statements.
-  - Nested conditionals.
-- **Loops**:
-  - `for` loops for iterating over sequences.
-  - `while` loops for condition-based repetition.
-- **Lists**:
-  - Creating and manipulating lists (e.g., `my_list = [1, 2, 3]`).
-  - List methods: `append()`, `remove()`, `sort()`, etc.
-  - List slicing and indexing.
-- **Logical and Bitwise Operations**:
-  - Logical: `and`, `or`, `not`.
-  - Bitwise: `&`, `|`, `^`, `~`, `<<`, `>>`.
+- **Boolean Values and Relational Operators**:
+  - Values: `True`, `False`.
+  - Operators: `==`, `!=`, `>`, `<`, `>=`, `<=`.
+  - Example: `print(5 > 3)` outputs `True`.
 
 ## Getting Started
-1. **Set Up**: Ensure Python and your editor are ready.
+1. **Set Up**: Ensure Python (3.8 or higher) and an editor (e.g., VS Code, nano).
 2. **Try It**:
-   - Create a file: `nano loops.py`.
+   - Create a file: `nano basics/boolean_relational.py`.
    - Example code:
      ```python
-     numbers = [1, 2, 3, 4, 5]
-     for num in numbers:
-         if num % 2 == 0:
-             print(f"{num} is even")
+     x = 5
+     y = 3
+     print(x > y)  # Outputs True
      ```
-   - Run: `python loops.py`.
-3. **Explore**: Check the `module3/` folder for example code and exercises.
+   - Run: `python3 basics/boolean_relational.py`.
+3. **Explore**: Check `module_3/basics/` for scripts.
 
 ## Why This Matters
-Control structures and lists allow you to build dynamic programs that make decisions and handle multiple data items. These skills are critical for tasks like data processing and automation.
+Boolean values and operators enable decision-making and control flow, foundational for programming logic and dynamic applications.
 
 ## Next Steps
-- Complete the exercises in the `module3/` folder.
-- Proceed to [Module 4](../module4/README.md) to learn about functions and advanced data structures.
+- Complete exercises in `module_3/`.
+- Proceed to conditionals, loops, lists, and operations.
