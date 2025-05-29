@@ -34,6 +34,20 @@ def main():
         number = get_integer("Enter a number or type -1 to stop: ")
     print("The largest number is:", largest_number)
 
+    # Example 2: Even/Odd Counter
+    print("\n--- Even/Odd Number Counter ---")
+    odd_numbers = 0
+    even_numbers = 0
+    number = get_integer("Enter a number or type 0 to stop: ")
+    while number:   # Simplified: non-zero is True
+        if number % 2:  # Simplified: non-zero remainder is odd
+            odd_numbers += 1
+        else:
+            even_numbers +=1
+        number = get_integer("Enter a number or type 0 to stop: ")
+    print("Odd numbers count:", odd_numbers)
+    print("Even numbers count:", even_numbers)
+
 
 if __name__ == "__main__":
     main()
