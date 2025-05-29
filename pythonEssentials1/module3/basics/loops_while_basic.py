@@ -48,6 +48,14 @@ def main():
     print("Odd numbers count:", odd_numbers)
     print("Even numbers count:", even_numbers)
 
+    # Example 3: Counter-Based Loop
+    print("\n--- Counter-Based Loop ---")
+    counter = 5
+    while counter:
+        print("Inside the loop.", counter)
+        counter -=1
+    print("Outside the loop.", counter)
+
 
 if __name__ == "__main__":
     main()
